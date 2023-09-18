@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:borderbox;
+}
+body{
+    min-height: 100vh;
+    background: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=1060&t=st=1667985466~exp=1667986066~hmac=c8e49fc72af0be5a7c02f585cc2b60ec7e1a6ed5177ac068b13dbf8bbf6cb492");
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 40px;
+    font-weight:  bold;
+    color: #0f1e43;
+    gap: 30px;
+}
+.container{
+    box-shadow:  4px 4px  30px rgb(13, 24, 69);
+    background: #0f1e43;
+    border-radius: 10px;
+    padding: 20px;
+}
+form input{
+    border: 0;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: #122044;
+    box-shadow: -5px -5px 15px #11172f;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin:8px;
+}
+.screen{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+.screen input{
+    text-align: right;
+    flex: 1;
+    font-size: 30px;
+    box-shadow: none;
+    background-color: whitesmoke;
+    color: #122044;
+    padding-right: 10px;
+}
+.equal{
+    width: 144px;
+}
+.dark-mode{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+
+i{
+    cursor: pointer;
+}
